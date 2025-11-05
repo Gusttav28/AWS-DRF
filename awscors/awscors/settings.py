@@ -76,14 +76,14 @@ WSGI_APPLICATION = 'awscors.wsgi.application'
 
 DATABASES = {
     'default': {    
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER':'postgres',
-        'PASSWORD':'gg$2025venecosupa',
-        'HOST':'db.wawprkqsalcrllferlib.supabase.co',
-        'PORT':'5432',
+        'ENGINE': 'django.db.backends.none',
+        'NAME': 'none',
+        'USER':'none',
+        'PASSWORD':'none',
+        'HOST':'none',
+        'PORT':'none',
         'OPTIONS':{
-            'sslmode': 'require',
+            'none': 'none',
         }
     }
 }
